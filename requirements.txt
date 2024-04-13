@@ -5,3 +5,5 @@ pandas
 numpy
 Pillow
 xgboost
+pickle
+
