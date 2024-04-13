@@ -209,8 +209,8 @@ if st.button("Estimate Carbin Footprint"):
     else:
         r_metal=0
 
-    dict1 = {'GC_PM':grocery_bill, 'DT_PM':distance_travelled, 'TPW':tv_pc,
-       'NCP':new_clothes, 'IT':internet, 'BT_obese':bt_obese, 'BT_overweight':bt_ow, 'BT_underweight':bt_uw, 'S':sex,
+    dict1 = {'GC_PM':(grocery_bill-173.36287)/72.386055, 'DT_PM':(distance_travelled-2042.42381)/2777.828915, 'TPW':(tv_pc-12.13766)/7.139277,
+       'NCP':(new_clothes-25.05342)/14.692149, 'IT':(internet-11.88657)/7.288290, 'BT_obese':bt_obese, 'BT_overweight':bt_ow, 'BT_underweight':bt_uw, 'S':sex,
         'D_pescatarian':d_pesc, 'D_vegan':d_vegan, 'D_vegetarian':d_veg, 'SF_less_frequent':sf_lf, 'SF_more_frequent':sf_mf,
        'SF_twice_a_day':sf_td,  'HS_electric':h_elec, 'HS_gas':h_gas, 'HS_wood':_h_wood, 'T_public':trs_pu, 'T_walk_bike':trs_wa, 
        'VT_electric':vt_ele, 'VT_hybrid':vt_hyb, 'VT_lpg':vt_lpg, 'VT_petrol':vt_pet, 'VT_PMM':vt_pmm, 'VT_public':vt_pub, 
