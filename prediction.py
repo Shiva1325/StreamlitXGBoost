@@ -3,5 +3,4 @@ import pickle
 def predict(data):
     reg = pickle.load(open('xgb_tune_1.pkl','rb'))
     # reg = jb.load("xgb_tune.sav")
-    # return reg.predict(data)
-    return 1
+    return reg.predict(data)
